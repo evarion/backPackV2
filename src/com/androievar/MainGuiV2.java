@@ -12,6 +12,7 @@ import java.awt.event.ActionListener;
 public class MainGuiV2 extends JFrame {
 
     int limit = 0;
+    int test =0;
     String tempString = "";
     int newWeight = 0;
     Warehouse warehouse = new Warehouse();
