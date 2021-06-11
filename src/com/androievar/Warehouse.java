@@ -28,4 +28,9 @@ public class Warehouse extends Storage {
             item, item, item,
             item, item, item,
             item, item, item};
+
+    //public void addElementFromBack() {
+    //
+    // }
+
 }
