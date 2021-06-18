@@ -1,6 +1,7 @@
-package com.androievar;
+package com.evario;
 
 import javax.swing.*;
+import java.awt.*;
 
 
 public class Item {
@@ -16,7 +17,7 @@ public class Item {
     }
 
 
-    public Item(String name, int weight){
+    public Item(String name, int weight, Image image){
         this.name=name;
         this.weight=weight;
     }

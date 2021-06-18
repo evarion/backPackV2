@@ -1,10 +1,11 @@
-package com.androievar;
+package com.evario;
 
 import javax.swing.*;
 
 public class Warehouse extends Storage {
 
-    Item apple = new Item("Apple", 80, new ImageIcon("images/apple1.png"));
+   // Item phone = new Item("Phone", 100, new ImageIcon("images/phone1.png"));было
+    Item apple = new Item("Apple", 80, new ImageIcon(this.getClass().getResource("/apple1.png")));
     Item phone = new Item("Phone", 100, new ImageIcon("images/phone1.png"));
     Item laptop = new Item("Laptop", 250, new ImageIcon("images/laptop1.png"));
     Item pen = new Item("Pen", 70, new ImageIcon("images/pen1.png"));
